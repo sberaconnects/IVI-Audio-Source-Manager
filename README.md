@@ -69,18 +69,18 @@ IVI-Audio-Source-Manager
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/sberaconnects/IVI-Audio-Source-Manager.git
+   ```
 
 2. **Open in Android Studio**:
-
    Launch Android Studio.
    Click on "Open an existing project".
    Navigate to the cloned repository folder and select it.
 
 3. **Configure SDK Path**:
-
     Ensure that the local.properties file contains the correct path to your Android SDK:
   ```bash
     sdk.dir=/path/to/your/Android/Sdk
+  ```
 
 4. **Build the Project**:
 
