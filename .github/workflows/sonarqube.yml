@@ -1,0 +1,11 @@
+name: SonarQube Analysis
+
+on: [push]
+
+jobs:
+  sonarqube:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: SonarQube Scan
+      run: echo 'Run SonarQube scan here'
