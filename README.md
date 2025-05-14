@@ -23,6 +23,7 @@ An Android-based In-Vehicle Infotainment (IVI) application that demonstrates sea
 
 ## 📁 Project Structure
 
+```
 IVI-Audio-Source-Manager
 ├── app
 │   └── src
@@ -55,6 +56,7 @@ IVI-Audio-Source-Manager
 └── tests
     └── AudioFocusTests.kt
 
+```
 
 ## 🛠️ Prerequisites
 
