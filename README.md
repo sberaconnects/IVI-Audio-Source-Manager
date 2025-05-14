@@ -23,26 +23,38 @@ An Android-based In-Vehicle Infotainment (IVI) application that demonstrates sea
 
 ## 📁 Project Structure
 
-IVI-Audio-Source-Manager/
-├── app/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/com/example/audiosourcemanager/
-│   │       │   ├── MainActivity.kt
-│   │       │   ├── NativeMediaActivity.kt
-│   │       │   ├── BrowserMediaActivity.kt
-│   │       │   ├── UsbMediaActivity.kt
-│   │       │   └── AudioFocusManager.kt
-│   │       ├── res/
-│   │       │   ├── layout/
-│   │       │   │   └── activity_main.xml
-│   │       │   └── values/
-│   │       │       └── strings.xml
-│   │       └── AndroidManifest.xml
-├── build.gradle (Project-level)
-├── settings.gradle
+IVI-Audio-Source-Manager
+├── app
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           ├── build.gradle
+│           ├── java
+│           │   └── com
+│           │       └── example
+│           │           └── audiosourcemanager
+│           │               ├── AudioFocusManager.kt
+│           │               ├── BrowserMediaActivity.kt
+│           │               ├── MainActivity.kt
+│           │               ├── NativeMediaActivity.kt
+│           │               └── UsbMediaActivity.kt
+│           └── res
+│               ├── layout
+│               │   └── activity_main.xml
+│               └── values
+├── build.gradle
+├── docs
+│   ├── architecture.md
+│   ├── flowchart.svg
+│   └── focus_handling.md
 ├── gradle.properties
-└── local.properties
+├── hal_stub
+├── README.md
+├── screenshots
+├── settings.gradle
+└── tests
+    └── AudioFocusTests.kt
+
 
 ## 🛠️ Prerequisites
 
